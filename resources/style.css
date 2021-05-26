@@ -1,0 +1,59 @@
+body{
+    margin:0 10%;
+}
+
+section {
+    border: 2px solid rgb(121, 121, 121);
+    margin:20px auto;
+    padding: 10px;
+
+
+}
+h2 {
+    margin: 20px auto;
+}
+h3{
+    margin:20px auto;
+}
+p {
+    line-height: 1.7em;
+}
+li {
+    line-height: 1.5em;
+}
+/* -- Color Styles */
+
+
+.color-group {
+    width:100%;
+}
+.color-item {
+display: inline-block;
+width: 32%;
+min-height:100px;
+text-align:center;
+margin:20px auto;
+}
+.color-item:first-child {
+    background-color: darkgreen;
+    color:white;
+}
+.color-item:nth-child(2) {
+    background-color: pink;
+}
+.color-item:nth-child(3) {
+    background-color: blue;
+    color:white;
+}
+.color-item:nth-child(4) {
+    background-color: yellowgreen;
+}
+
+/* Font Styles */
+.font-item {
+    display: inline-block;
+    margin:20px 10px;
+    width:40%;
+    
+}
+
